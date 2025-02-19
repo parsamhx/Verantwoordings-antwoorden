@@ -1,4 +1,33 @@
 # Verantwoordings-antwoorden
+## Mijn requirements
+Het systeem valideert automatisch of geselecteerde onderdelen technisch compatibel zijn (bijv. CPU-socket en moederbord, RAM-type, PSU-vermogen).
+## Functionele Requirements
+1. Gebruikers moeten verschillende componenten (processor, moederbord, grafische kaart, voeding, werkgeheugen, opslag, etc.) uit een bepaalde dataset kunnen kiezen (Niet perse de voorraad).
+2. Het systeem moet controleren of de gekozen onderdelen onderling compatibel zijn (bijvoorbeeld sockettype van de processor met het moederbord).
+3. Gebruikers moeten in staat zijn meerdere configuraties op te slaan in hun account.
+4. Gebruikers moeten in staat zijn om te kunnen beginnen met een basis template, bijvoorbeeld een kantoor pc of gaming pc.
+5. Gebruikers moeten in staat zijn om hun configuratie te kunnen delen met andere gebruikers doormiddel van een link.
+6. Gebruikers kunnen een account aanmaken via gebruikersnaam en wachtwoord.
+7. Gebruikers kunnen meerdere systemen (bijv. eigen configuraties of prebuilt PC’s) selecteren en in een overzicht naast elkaar zetten. Om ze te vergelijken
+8. Gebruikers moeten in staat zijn hun configuratie later aan te passen
+9. De product owner moet in staat zijn welke onderdelen bovenaan staan in de lijst
+10. Er moet een winkelwagentje zijn waar je hele bestelling staat.
+
+## Niet-Functionele Requirements
+1. De applicatie moet snel reageren, ook wanneer meerdere gebruikers gelijktijdig configuraties samenstellen.
+2. De interface moet intuïtief zijn, zodat gebruikers zonder technische voorkennis eenvoudig hun eigen configuratie kunnen samenstellen.
+3. Gebruiksdata zoals wachtwoorden moeten versleuteld opgeslagen worden.
+4. De applicatie moet zo ingedeeld zijn dat mensen met een beperking de applicatie alsnog goed kunnen gebruiken. (slechtziend, kleurenblind etc)
+5. De applicatie moet zoveel mogelijk beschikbaar zijn. (minimale downtime)
+6. De code moet netjes en overzichtelijk zijn zodat er makkelijk aan kunnen worden gewerkt.
+
+## Mijn vragen
+1. Moeten er kant-en-klare configuraties zijn waar klanten vanuit kunnen starten? (Bijv. ‘Budget Gaming’, ‘High-End Workstation’) - Parsa
+2. Hoe moeten de opgeslagen configuraties beheerd worden? Kunnen klanten bijvoorbeeld eerdere versies van hun configuraties terughalen? - Parsa
+3. Hoe uitgebreid moeten productbeschrijvingen en specificaties zijn? Willen jullie bijvoorbeeld directe links naar fabrikanten of benchmarkresultaten? -Parsa
+4. Hoe moeten de opgeslagen configuraties beheerd worden? Kunnen klanten bijvoorbeeld eerdere versies van hun configuraties terughalen? - Parsa
+5. Hoe ziet het ideale eindresultaat eruit voor jullie? - Parsa
+6. Wat zijn volgens jullie de belangrijkste functies die absoluut in de applicatie moeten zitten? - Parsa
 ## Hoofdvragen
 1. Moeten er kant-en-klare configuraties zijn waar klanten vanuit kunnen starten? (Bijv. ‘Budget Gaming’, ‘High-End Workstation’) - Parsa
 2. Is er al een bepaalde dataset qua voorraad die wij kunnen gebruiken? - Valentijn
